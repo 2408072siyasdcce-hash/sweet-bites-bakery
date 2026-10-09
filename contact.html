@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Bites Bakery | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍰 Sweet Bites Bakery</h1>
+    <p>Freshly baked with love!</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Our Products</a>
+      <a href="contact.html">Contact / Order</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <h2>Contact Us / Place an Enquiry</h2>
+      <p>Tell us what you would like to order.</p>
+    </section>
+
+    <section class="content">
+      <h2>Customer Form</h2>
+
+      <form id="contactForm">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text"
+               placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email"
+               placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel"
+               placeholder="Enter your phone number">
+
+        <label for="order">Select Product</label>
+        <select id="order" name="order" required>
+          <option value="">Choose a product</option>
+          <option value="Chocolate Cake">Chocolate Cake</option>
+          <option value="Vanilla Cupcakes">Vanilla Cupcakes</option>
+          <option value="Chocolate Cookies">Chocolate Cookies</option>
+          <option value="Chocolate Brownies">Chocolate Brownies</option>
+          <option value="Fresh Croissants">Fresh Croissants</option>
+          <option value="Chocolate Donuts">Chocolate Donuts</option>
+          <option value="Custom Order">Custom Order</option>
+        </select>
+
+        <label for="message">Order Details / Message</label>
+        <textarea id="message" name="message"
+                  placeholder="Enter quantity, date or your message"
+                  required></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+        <p id="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>Email: sweetbites@example.com</p>
+        <p>We look forward to hearing from you!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Sweet Bites Bakery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
