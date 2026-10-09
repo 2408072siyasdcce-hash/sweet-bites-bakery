@@ -2,7 +2,7 @@
 const form = document.getElementById("contactForm");
 const status = document.getElementById("status");
 
-const scriptURL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL";
+const scriptURL = "https://script.google.com/macros/s/AKfycbz9b0LT0XqF5YTj-Ns3LD1kp3oVoZH0tTjo2kxaRQGwC7hQiq4NaVU3a2k3k89_YwS1/exec";
 
 form.addEventListener("submit", async function (event) {
   event.preventDefault();
